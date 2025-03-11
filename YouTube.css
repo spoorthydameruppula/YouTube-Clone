@@ -1,0 +1,877 @@
+body{
+    font-family: Roboto, Arial;
+    padding-top: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+}
+.hamburger{
+    height: 20px;
+    margin: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.hamburger:hover{
+    opacity: 0.5;
+}
+.youtube{
+    height: 30px;
+    margin-left: 27px;
+    margin-top: 4px;
+}
+.p_youtube{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.div_youtube{
+    display: flex;
+}
+.div_search{
+    display: flex;
+    width: 50%;
+}
+.searchh{
+    padding-left: 8px;
+    border: none;
+    box-shadow: 0px 1px 3px rgb(0,0,1);
+    border-radius: 12px;
+    height: 26px;
+    margin-top: 7px;
+    flex-grow: 1;
+    min-width: 50px;
+}
+.searchbar{
+    height: 24px;
+    cursor: pointer;
+}
+.button_searchbar{
+    margin-top: 7px;
+    margin-left: -31px;
+    height: 28px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 1px 3px rgb(0,0,1);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    cursor: pointer;
+}
+.button_mic{
+    height: 36px;
+    width: 36px;
+    margin-top: 5px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 8px;
+    display: flex;
+    cursor: pointer;
+}
+.mic{
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+.mic:hover{
+    opacity: 0.5;
+}
+.button_video{
+    height: 32px;
+    margin-top: 8px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.button_video:hover{
+    opacity: 0.5;
+}
+.right{
+    display: flex;
+}
+.video{
+    margin-top: 0px;
+    height: 30px;
+}
+.button_bell{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.bell{
+    height: 26px;
+}
+.button_s{
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.s{
+    height: 28px;
+}
+
+.left_content{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 5;
+    top: 40px;
+    bottom: 0;
+    width: 42px;
+}
+.div_home{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.home{
+    height: 28px;
+    margin-top: 50px;
+}
+.p_home{
+    font-size: 12px;
+    margin-top: 4px;
+}
+.div_shorts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.shorts{
+    height: 28px;
+    margin-top: 30px;
+}
+.p_shorts{
+    font-size: 12px;
+    margin-top: 4px;
+}
+.div_subscriptions{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.subscriptions{
+    height: 28px;
+    margin-top: 30px;
+}
+.p_subscriptions{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.div_you{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.you{
+    height: 28px;
+    margin-top: 30px;
+}
+.p_you{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px; 
+    padding: 20px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.img_Tokyo{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Tokyo_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Tokyo{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Tokyo{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Tokyo{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Tokyo{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Tokyo{
+    display: flex;
+    flex-direction: column;
+}
+.img_Gangsta{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Gangsta_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Gangsta{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Gangsta{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Gangsta{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Gangsta{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Gangsta{
+    display: flex;
+    flex-direction: column;
+}
+.img_Skyfall{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Skyfall_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Skyfall{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Skyfall{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Skyfall{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Skyfall{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Skyfall{
+    display: flex;
+    flex-direction: column;
+}
+.video4{
+    height: 170px;
+    border-radius: 8px;
+}
+.img_SaiPallavi{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_SaiPallavi_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_SaiPallavi{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_SaiPallavi{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_SaiPallavi{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_SaiPallavi{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_SaiPallavi{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_3D{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_3D_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_3D{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_3D{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_3D{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_3D{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_3D{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Avengers{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Avengers_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Avengers{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Avengers{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Avengers{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Avengers{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Avengers{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Madara{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Madara_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Madara{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Madara{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Madara{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Madara{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Madara{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Radha{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Radha_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Radha{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Radha{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Radha{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Radha{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Radha{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Itachi{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Itachi_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Itachi{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Itachi{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Itachi{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Itachi{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Itachi{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.img_Tokyo1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Tokyo1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Tokyo1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Tokyo1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Tokyo1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Tokyo1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Tokyo1{
+    display: flex;
+    flex-direction: column;
+}
+.img_Gangsta1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Gangsta1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Gangsta1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Gangsta1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Gangsta1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Gangsta1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Gangsta1{
+    display: flex;
+    flex-direction: column;
+}
+.img_Skyfall1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Skyfall1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Skyfall1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Skyfall1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Skyfall1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Skyfall1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Skyfall1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img_SaiPallavi1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_SaiPallavi1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_SaiPallavi1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_SaiPallavi1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_SaiPallavi1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_SaiPallavi1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_SaiPallavi1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_3D1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_3D1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_3D1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_3D1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_3D1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_3D1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_3D1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Avengers1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Avengers1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Avengers1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Avengers1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Avengers1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Avengers1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Avengers1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Madara1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Madara1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Madara1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Madara1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Madara1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Madara1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Madara1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Radha1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Radha1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Radha1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Radha1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Radha1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Radha1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Radha1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_Itachi1{
+    height: 210px;
+    border-radius: 8px;
+}
+.img_Itachi1_channel{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    border-radius: 20px;
+}
+.p1_Itachi1{
+    font-weight: bold;
+    margin: 4px;
+    margin-left: 9px;
+}
+.p2_Itachi1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 6px;
+    margin-bottom: 2px;
+    margin-left: 9px;
+}
+.p3_Itachi1{
+    color: rgb(117, 114, 114);
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 9px;
+}
+.div_Itachi1{
+    display: flex;
+    flex-direction: row;
+}
+.div_p_Itachi1{
+    display: flex;
+    flex-direction: column;
+}
+.video1, .video2, .video3, .video4, .video5, .video6, .video7, .video8, .video9, .video11, .video22, .video33, .video44, .video55, .video66, .video77, .video88, .video99{
+    z-index: 2;
+}
